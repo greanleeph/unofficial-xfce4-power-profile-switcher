@@ -1,0 +1,22 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+    <Name>Xfce</Name>
+
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+    <AppDir>/home/bryce/.local/share/powerprofileswitcher</AppDir>
+
+    <Include>
+        <Category>powerprofile</Category>
+    </Include>
+
+    <Layout>
+        <Filename>currentprofile.desktop</Filename>
+        <Separator/>
+        <Filename>performancemode.desktop</Filename>
+        <Filename>balancedmode.desktop</Filename>
+        <Filename>powersavermode.desktop</Filename>
+    </Layout>  
+</Menu>

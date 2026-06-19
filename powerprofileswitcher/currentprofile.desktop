@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Current Mode: Balanced
+Icon=draw-circle
+OnlyShowIn=XFCE;
+Exec=
+Categories=powerprofile;
