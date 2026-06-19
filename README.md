@@ -1,4 +1,4 @@
-# xfce4-power-profile-switcher
+# unofficial-xfce4-power-profile-switcher
 This is a simple GUI workaround for toggling power profiles (using `powerprofilesctl`) in Xfce. 
 
 It is to be used as a custom menu via Xfce's **Applications Menu** to provide a simple toggle for `powerprofilesctl` to easily switch between **Performance**, **Balanced**, and **Power Saver** mode.
