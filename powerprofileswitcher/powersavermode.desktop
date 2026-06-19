@@ -5,5 +5,5 @@ Name=Power Saver
 Comment=Set Power Profile to Power Saver Mode
 Icon=battery-profile-powersave
 OnlyShowIn=XFCE;
-Exec=sh /home/bryce/.local/share/powerprofileswitcher/scripts/setpowersaver.sh
+Exec=sh /home/username/.local/share/powerprofileswitcher/scripts/setpowersaver.sh
 Categories=powerprofile;

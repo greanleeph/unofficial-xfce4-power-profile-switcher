@@ -5,5 +5,5 @@ Name=Performance
 Comment=Set Power Profile to Performance Mode
 Icon=battery-profile-performance
 OnlyShowIn=XFCE;
-Exec=sh /home/bryce/.local/share/powerprofileswitcher/scripts/setperformance.sh
+Exec=sh /home/username/.local/share/powerprofileswitcher/scripts/setperformance.sh
 Categories=powerprofile;

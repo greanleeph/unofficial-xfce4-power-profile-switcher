@@ -5,5 +5,5 @@ Name=Balanced
 Comment=Set Power Profile to Balanced Mode
 Icon=draw-circle
 OnlyShowIn=XFCE;
-Exec=sh /home/bryce/.local/share/powerprofileswitcher/scripts/setbalanced.sh
+Exec=sh /home/username/.local/share/powerprofileswitcher/scripts/setbalanced.sh
 Categories=powerprofile;
