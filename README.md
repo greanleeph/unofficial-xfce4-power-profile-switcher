@@ -8,15 +8,15 @@ It is to be used as a custom menu via Xfce's **Applications Menu** to provide a 
 ## How to setup
 ### I. Initial Setup
 1. Clone the repository:
-  - `git clone github.com/greanleeph/xfce4-power-profile-switcher`
+  - `git clone https://github.com/greanleeph/unofficial-xfce4-power-profile-switcher.git`
 
 2. Move the `powerprofileswitcher` directory to `~/.local/share/` either via the terminal: `mv powerprofileswitcher ~/.local/share/`,
 or just by copying and pasting.
 
-3. Enter the `powerprofileswitcher` directory and open each `.desktop` file using your text editor of choice and replace "username" in the `Exec=` line to be your actual username.
-  - E.g. `Exec=sh /home/johndoe/.local/share/powerprofileswitcher/scripts/setbalanced.sh`
+3. Enter the `scripts` directory and enable each to run as program:
+  - `chmod -x setbalanced.sh setperformance.sh setpowersaver.sh`
 
-4. Do the same for `pwrmenu.menu`, replace "username" to your actual username.
+3. Move the contents inside the `icons` directory to `~/.icons`.
 
 ### II. Adding the Power Profile Switcher to the Panel
 1. Add a new **Applications Menu** item to the panel.
@@ -27,9 +27,7 @@ or just by copying and pasting.
 
 4. Change the button icon to an appropriate icon.
 
-5. For the **Menu File**, tick "Use custom menu file" and browse for `pwrmenu.menu`.
+5. For the **Menu File**, tick "Use custom menu file" and browse for and select `pwrmenu.menu`.
 
 ## Troubleshooting
 Enter `powerprofilesctl` into your terminal to verify if the selected power profile was correctly applied.
-
-Also double check the paths if they are correct because that is the most likely culprit when things don't work properly.

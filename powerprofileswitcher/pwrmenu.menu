@@ -6,7 +6,7 @@
 
     <DefaultAppDirs/>
     <DefaultDirectoryDirs/>
-    <AppDir>/home/username/.local/share/powerprofileswitcher</AppDir>
+    <AppDir>.</AppDir>
 
     <Include>
         <Category>powerprofile</Category>
