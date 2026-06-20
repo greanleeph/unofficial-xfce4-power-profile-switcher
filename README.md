@@ -5,8 +5,6 @@ It is to be used as a custom menu via Xfce's **Applications Menu** to provide a 
 
 <img width="334" height="192" alt="screenshot" src="https://github.com/user-attachments/assets/63e7d3dc-1418-4d0b-9e69-2f5214c2ed34" />
 
-## *Note: Since this is still a work in progress; a lot of things implemented are still temporary, setting this up is quite tedious, and it may not work perfectly.*
-
 ## How to setup
 ### I. Initial Setup
 1. Clone the repository:
