@@ -2,7 +2,7 @@
 
 powerprofilesctl set power-saver
 
-notify-send 'Power Profile' 'Switched to Power Saving Mode' --icon=battery-profile-powersave
+notify-send 'Power Profile' 'Switched to Power Saver Mode' --icon=battery-profile-powersave
 
 cat > "$HOME/.local/share/powerprofileswitcher/currentprofile.desktop" <<'EOF'
 [Desktop Entry]
