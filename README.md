@@ -7,16 +7,25 @@ It is to be used as a custom menu via Xfce's **Applications Menu** to provide a 
 
 ## How to setup
 ### I. Initial Setup
-1. Clone the repository:
-  - `git clone https://github.com/greanleeph/unofficial-xfce4-power-profile-switcher.git`
+#### 1. Clone the repository:
 
-2. Move the `powerprofileswitcher` directory to `~/.local/share/` either via the terminal: `mv powerprofileswitcher ~/.local/share/`,
-or just by copying and pasting.
+`git clone https://github.com/greanleeph/unofficial-xfce4-power-profile-switcher.git`
 
-3. Enter the `scripts` directory and enable each to run as program:
-  - `chmod -x setbalanced.sh setperformance.sh setpowersaver.sh`
+#### 2. Move the project to the correct folder
 
-3. Move the contents inside the `icons` directory to `~/.icons`.
+Move the `powerprofileswitcher` folder to `~/.local/share/`.
+
+You can do this either by issuing the command `mv powerprofileswitcher ~/.local/share/` into your terminal, or simply with your file manager; cut and paste the folder into `~/.local/share/`.
+
+#### 3. Make the scripts executable.
+Navigate to the `scripts` folder inside the project.
+
+Make each script executable: `chmod +x setbalanced.sh setperformance.sh setpowersaver.sh`.
+
+If you prefer using a file manager, you can right-click each script, open **Properties** -> **Permissions**, and enable **"Allow this file to run as a program"**
+
+#### 4. Install the icons
+Move the icon files inside the `icons` folder to `~/.icons`.
 
 ### II. Adding the Power Profile Switcher to the Panel
 1. Add a new **Applications Menu** item to the panel.
@@ -27,7 +36,27 @@ or just by copying and pasting.
 
 4. Change the button icon to `adjustlevels`.
 
-5. Under **Menu File**, tick "Use custom menu file" and browse to your `powerprofilesswitcher` directory and select `pwrmenu.menu`.
+5. Select "Use custom menu file" and browse to your `powerprofilesswitcher` folder and select `pwrmenu.menu`.
+
+## Verifying if it works
+Enter `powerprofilesctl` into your terminal to verify if the selected power profile was correctly applied.
 
 ## Troubleshooting
-Enter `powerprofilesctl` into your terminal to verify if the selected power profile was correctly applied.
+### Nothing happens
+Make sure the three scripts are executable:
+
+`chmod +x setbalanced.sh setperformance.sh setpowersaver.sh`
+
+You can verify this by running:
+
+`ls -l`
+
+The scripts should show executable (x) permissions.
+
+### Icons do not appear
+
+Verify that the icon files were moved to:
+
+~/.icons
+
+You may need to log out and back in, or restart the XFCE panel, for newly installed icons to appear.
