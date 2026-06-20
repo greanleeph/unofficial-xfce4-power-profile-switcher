@@ -3,7 +3,7 @@ This is a simple GUI workaround for toggling power profiles (using `powerprofile
 
 It is to be used as a custom menu via Xfce's **Applications Menu** to provide a simple toggle for `powerprofilesctl` to easily switch between **Performance**, **Balanced**, and **Power Saver** mode.
 
-<img width="334" height="192" alt="screenshot" src="https://github.com/user-attachments/assets/63e7d3dc-1418-4d0b-9e69-2f5214c2ed34" />
+<img width="313" height="186" alt="screenshot" src="https://github.com/user-attachments/assets/0d7360b2-35fa-4c3a-9f35-a4d95a03441b" />
 
 ## How to setup
 ### I. Initial Setup
@@ -25,9 +25,9 @@ or just by copying and pasting.
 
 3. Untick "Show button title" and replace the **Button Title** to "Power Profiles".
 
-4. Change the button icon to an appropriate icon.
+4. Change the button icon to `adjustlevels`.
 
-5. For the **Menu File**, tick "Use custom menu file" and browse for and select `pwrmenu.menu`.
+5. Under **Menu File**, tick "Use custom menu file" and browse to your `powerprofilesswitcher` directory and select `pwrmenu.menu`.
 
 ## Troubleshooting
 Enter `powerprofilesctl` into your terminal to verify if the selected power profile was correctly applied.
