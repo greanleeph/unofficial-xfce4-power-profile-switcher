@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Current Mode: Balanced
-Icon=draw-circle
+Icon=power-profile-balanced-symbolic
 OnlyShowIn=XFCE;
 Exec=
 Categories=powerprofile;
