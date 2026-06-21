@@ -6,7 +6,6 @@ notify-send 'Power Profile' 'Switched to Balanced Mode' --icon=power-profile-bal
 
 cat > "$HOME/.local/share/powerprofileswitcher/currentprofile.desktop" <<'EOF'
 [Desktop Entry]
-Version=1.0
 Type=Application
 Name=Current Mode: Balanced
 Icon=power-profile-balanced-symbolic

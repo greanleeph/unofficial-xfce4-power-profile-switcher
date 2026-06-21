@@ -6,7 +6,6 @@ notify-send 'Power Profile' 'Switched to Power Saver Mode' --icon=power-profile-
 
 cat > "$HOME/.local/share/powerprofileswitcher/currentprofile.desktop" <<'EOF'
 [Desktop Entry]
-Version=1.0
 Type=Application
 Name=Current Mode: Power Saver
 Icon=power-profile-power-saver-symbolic
