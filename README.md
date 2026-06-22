@@ -60,5 +60,3 @@ Verify that the icon files were moved to:
 ~/.icons
 
 You may need to log out and back in, or restart the XFCE panel, for newly installed icons to appear.
-
-### Current Profile shows in Xfce 4.18 but not in Xfce 4.20+
