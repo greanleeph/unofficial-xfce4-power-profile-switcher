@@ -9,7 +9,10 @@ cat > "$HOME/.local/share/powerprofileswitcher/currentprofile.desktop" <<'EOF'
 Type=Application
 Name=Current Mode: Balanced
 Icon=power-profile-balanced-symbolic
-OnlyShowIn=XFCE;
-Exec=
+Exec=notify-send 'Power Profile' 'Power profile is set to Balanced Mode' --icon=power-profile-balanced-symbolic
 Categories=powerprofile;
+Comment=
+Path=
+Terminal=false
+StartupNotify=false
 EOF
