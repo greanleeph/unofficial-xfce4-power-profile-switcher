@@ -9,7 +9,8 @@ cat > "$HOME/.local/share/powerprofileswitcher/currentprofile.desktop" <<'EOF'
 Type=Application
 Name=Current Mode: Power Saver
 Icon=power-profile-power-saver-symbolic
-Exec=notify-send 'Power Profile' 'Power profile is set to Power Saver Mode' --icon=power-profile-balanced-symbolic
+OnlyShowIn=XFCE;
+Exec=sh -c "$HOME/.local/share/powerprofileswitcher/scripts/getpwrprofile.sh"
 Categories=powerprofile;
 Comment=
 Path=

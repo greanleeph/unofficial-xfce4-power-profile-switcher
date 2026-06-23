@@ -9,7 +9,8 @@ cat > "$HOME/.local/share/powerprofileswitcher/currentprofile.desktop" <<'EOF'
 Type=Application
 Name=Current Mode: Performance
 Icon=power-profile-performance-symbolic
-Exec=notify-send 'Power Profile' 'Power profile is set to Performance Mode' --icon=power-profile-balanced-symbolic
+OnlyShowIn=XFCE;
+Exec=sh -c "$HOME/.local/share/powerprofileswitcher/scripts/getpwrprofile.sh"
 Categories=powerprofile;
 Comment=
 Path=
